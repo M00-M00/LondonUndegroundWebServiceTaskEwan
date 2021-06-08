@@ -17,11 +17,15 @@ flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
 
-Run the app:
-flask run
+Running the app:
+1.   flask run
 
-1) Add data to the database:
-.../update (if running locally http://127.0.0.1:5000/update)
+Initial run:
+
+Add data to the database by going to .../update url:
+ (if running locally http://127.0.0.1:5000/update)
+
+General usage:
 
 Get info for lines:
 ../lines  (http://127.0.0.1:5000/lines)
