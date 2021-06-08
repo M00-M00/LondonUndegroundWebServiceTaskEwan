@@ -29,7 +29,6 @@ def get_lines(df):
     unique_lines = ul3
     return unique_lines
 
-unique_lines = get_lines(df)
 
 
 def list_of_stations(df):
